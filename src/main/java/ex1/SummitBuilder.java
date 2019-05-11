@@ -36,6 +36,10 @@ public class SummitBuilder {
 		return this;
 	}
 
+	public Summit build(){
+		return summit;
+	}
+
 
 
 }

@@ -1,4 +1,4 @@
-package pl.sda;
+package ex1;
 
 import ex1.Latitude;
 import ex1.LatitudeBuilder;
