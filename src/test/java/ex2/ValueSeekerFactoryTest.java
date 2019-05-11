@@ -17,8 +17,8 @@ public class ValueSeekerFactoryTest {
 
 		//then
 		assertTrue(result instanceof ValueSeeker);
-		assertFalse(result instanceof MinValueSeeker);
-		assertTrue(result instanceof MaxValueSeeker);
+		assertTrue(result instanceof MinValueSeeker);
+		assertFalse(result instanceof MaxValueSeeker);
 		//);
 	}
 
