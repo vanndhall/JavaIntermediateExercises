@@ -6,8 +6,8 @@ import java.time.LocalDate;
 public class SummitBuilder {
 	private Summit summit; // create instance of class that builder will be using
 
-	public SummitBuilder(Summit summit) { // create constructor  and initial instance
-		this.summit = summit;
+	public SummitBuilder() { // create constructor  and initial instance
+		summit = new Summit();
 	}
 
 	public SummitBuilder withName (String name){
